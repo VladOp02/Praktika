@@ -1,0 +1,25 @@
+{
+  "name": "gith",
+  "version": "1.0.0",
+  "description": "This is langing practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladOp02/Praktika.git"
+  },
+  "author": "VladOp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladOp02/Praktika/issues"
+  },
+  "homepage": "https://github.com/VladOp02/Praktika#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0"
+  }
+}
