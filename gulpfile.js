@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const pug = require('gulp-pug');
+const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const spritesmith = require('gulp.spritesmith');
 const rimraf = require('rimraf');
@@ -29,7 +30,8 @@ gulp.task('templates:compile', function buildHTML() {
   gulp.task('styles:compile', function () {
     return gulp.src('source/styles/main.scss')
       .pipe(sass().on('error', sass.logError))
-      .pipe(gulp.dest('.build/css'));
+      .pipe(rename('main.min.css'))
+      .pipe(gulp.dest('build/css'));
   });
 
   gulp.task('sprite', function (cb) {
