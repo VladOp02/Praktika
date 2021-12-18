@@ -18,5 +18,7 @@ gulp.task('templates:compile', function buildHTML() {
     .pipe(pug({
       pretty: true
     }))
+
     .pipe(gulp.dest('build'))
+
   });
