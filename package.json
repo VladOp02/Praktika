@@ -1,7 +1,7 @@
 {
   "name": "gith",
   "version": "1.0.0",
-  "description": "\"start\": \"gulp\"",
+  "description": "всё необходимое установлено",
   "main": "gulpfile.js",
   "dependencies": {
     "accepts": "^1.3.7",
@@ -279,7 +279,6 @@
     "got": "^7.1.0",
     "graceful-fs": "^4.2.8",
     "graceful-readlink": "^1.0.1",
-    "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
@@ -632,6 +631,7 @@
     "safe-json-parse": "^1.0.1",
     "safe-regex": "^1.1.0",
     "safer-buffer": "^2.1.2",
+    "sass": "^1.45.0",
     "save-pixels": "^2.3.6",
     "sax": "^1.2.4",
     "seek-bzip": "^1.0.6",
@@ -661,6 +661,7 @@
     "sort-keys": "^1.1.2",
     "sort-keys-length": "^1.0.1",
     "source-map": "^0.5.7",
+    "source-map-js": "^1.0.1",
     "source-map-resolve": "^0.5.3",
     "source-map-url": "^0.4.1",
     "sparkles": "^1.0.1",
@@ -789,9 +790,6 @@
     "yauzl": "^2.10.0",
     "yeast": "^0.1.2"
   },
-  "devDependencies": {
-    "sass": "^1.45.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
@@ -805,5 +803,8 @@
   "bugs": {
     "url": "https://github.com/VladOp02/Praktika/issues"
   },
-  "homepage": "https://github.com/VladOp02/Praktika#readme"
+  "homepage": "https://github.com/VladOp02/Praktika#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
